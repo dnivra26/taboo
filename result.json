@@ -1,0 +1,134 @@
+{
+	"1": {
+		"word": "memory ",
+		"synonyms": ["remember", " forget", " brain", " elephant", " computer"]
+	},
+	"2": {
+		"word": "blind ",
+		"synonyms": ["window", " roof", " light", " decorate", " attic"]
+	},
+	"3": {
+		"word": "scenery",
+		"synonyms": ["picture", " art", " nature", " country", " painting"]
+	},
+	"4": {
+		"word": "magazine",
+		"synonyms": ["article", " detail", " feminine", " the press"]
+	},
+	"5": {
+		"word": "God",
+		"synonyms": ["creator", " universe", " religion", "prayer", " Bible"]
+	},
+	"6": {
+		"word": "spice ",
+		"synonyms": ["strong", " curry", " kitchen", " Aromat", " odour"]
+	},
+	"7": {
+		"word": "sleep in",
+		"synonyms": ["sleep", " vacation", " rest", " breakfast", " late"]
+	},
+	"8": {
+		"word": "palm tree",
+		"synonyms": ["tropics", " beach", " coconut", " tree"]
+	},
+	"9": {
+		"word": "excuse me",
+		"synonyms": ["ask", " confess", " burp", " sorry", " pardon"]
+	},
+	"10": {
+		"word": "wisdom ",
+		"synonyms": ["teeth", " child", " ancient", " virtue", " grow up"]
+	},
+	"11": {
+		"word": "bitter ",
+		"synonyms": ["sour", " beer", " lemon", " feeling", " orange"]
+	},
+	"12": {
+		"word": "to rock ",
+		"synonyms": ["baby", " cradle", " sleep", " reassure", " night"]
+	},
+	"13": {
+		"word": "dead end ",
+		"synonyms": ["turn around", " one way", " prohibitted", " three-point turn"]
+	},
+	"14": {
+		"word": "coat",
+		"synonyms": ["outside", " weather", " rain", " cold", " anorak"]
+	},
+	"15": {
+		"word": "bread",
+		"synonyms": ["sandwich", " bakery", " flour", " cheese"]
+	},
+	"16": {
+		"word": "tense ",
+		"synonyms": ["nervous", " wire", " hand", ""]
+	},
+	"17": {
+		"word": "novel ",
+		"synonyms": ["book", " write", " author", " story", " imagine"]
+	},
+	"18": {
+		"word": "break down",
+		"synonyms": ["car", " gas", " function", " walk"]
+	},
+	"19": {
+		"word": "sustainable development",
+		"synonyms": ["environment", " ecology", " forest", " build", " future"]
+	},
+	"20": {
+		"word": "hammer ",
+		"synonyms": ["nail", " tool", " auction", " shark"]
+	},
+	"21": {
+		"word": "wig ",
+		"synonyms": ["judge", " dress up", " hair", " court"]
+	},
+	"22": {
+		"word": "emergency ",
+		"synonyms": ["hospital", " accident", " blood", " surgeon"]
+	},
+	"23": {
+		"word": "root ",
+		"synonyms": ["tree", " grow", " soil", " foot"]
+	},
+	"24": {
+		"word": "clue ",
+		"synonyms": ["help", " police", " resolve", " investigation"]
+	},
+	"25": {
+		"word": "debt ",
+		"synonyms": ["credit card", " borrow", " discover", ""]
+	},
+	"26": {
+		"word": "goat ",
+		"synonyms": ["cheese", " milk", " farm", " billy"]
+	},
+	"27": {
+		"word": "grass ",
+		"synonyms": ["green", " garden", " cow", " field", " lawn"]
+	},
+	"28": {
+		"word": "border ",
+		"synonyms": ["country", " limit", " customs", " separation", ""]
+	},
+	"29": {
+		"word": "erase ",
+		"synonyms": ["eraser", " lose", " memory", " forget", " file"]
+	},
+	"30": {
+		"word": "spring ",
+		"synonyms": ["season", " summer", " flower", " tree", " bud"]
+	},
+	"31": {
+		"word": "chemical weapon",
+		"synonyms": ["biological", " kill", " Anthrax. gas", " terror"]
+	},
+	"32": {
+		"word": "thank-you",
+		"synonyms": ["polite", " present", " you're welcome", " service"]
+	},
+	"33": {
+		"word": "dishwasher ",
+		"synonyms": ["machine", " product", " plate", " dirty", " kitchen"]
+	}
+}
