@@ -65,6 +65,11 @@ function handleIntent(event, context) {
 			}
 			
 		}
+		case "AMAZON.CancelIntent":
+		case "AMAZON.StopIntent": {
+			const output =  buildResponseText("bye bye", true);
+			context.succeed(buildResponse({}, output));
+		}
 
 	} 
 }
