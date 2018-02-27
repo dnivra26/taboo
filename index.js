@@ -12,7 +12,7 @@ exports.handler = function (event, context) {
 
         switch(event.request.type) {
         	case "LaunchRequest": {
-        		const output = buildResponseText("Let the game begin. Say start", false)
+        		const output = buildResponseText("Let the game begin. Say start game", false)
     			context.succeed(buildResponse(event.session.attributes, output));
         		break;	
         	}
@@ -69,6 +69,32 @@ function handleIntent(event, context) {
 		case "AMAZON.StopIntent": {
 			const output =  buildResponseText("bye bye", true);
 			context.succeed(buildResponse({}, output));
+			break;
+		}
+		case "AMAZON.HelpIntent": {
+			const helpText = "I will give you a list of four words. Respond with a word which relates to these four words, for example, answer is pirate. To start a new game, say, start game. Would you like to keep playing?"
+			const output =  buildResponseText(helpText, false);
+			context.succeed(buildResponse(session.attributes, output));
+			break;
+		}
+		case "AMAZON.YesIntent": {
+			const attributes = session.attributes;
+			console.log('YesIntent', attributes, attributes.key);
+			if(attributes.key == null) {
+				const objectKeys = keys(data);
+				const keyToPick = sample(objectKeys);
+				const object = data[keyToPick];
+				console.log('object picked', object);
+				const output = buildResponseSynonyms(object['synonyms']);
+				context.succeed(buildResponse({key: keyToPick}, output));
+			} else {
+				const keyToPick = attributes.key;
+				const object = data[keyToPick];
+				console.log('object picked', object);
+				const output = buildResponseSynonyms(object['synonyms']);
+				context.succeed(buildResponse({key: keyToPick}, output));
+			}
+			break;
 		}
 
 	} 
